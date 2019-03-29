@@ -1,0 +1,83 @@
+html{
+  font-family: 'PingFangSC-Regular';
+}
+body{
+  background-color: #f7f7f7;
+}
+input{
+    margin: 0;
+    padding: 0;
+}
+input[type=number], input[type=password], input[type=text], textarea {
+    -webkit-appearance: none;
+}
+input{outline:none} 
+.header-block{
+  margin-bottom: 5px;
+  padding: 12px 15px;
+  background-color: #fff;
+}
+.f-m{
+  font-family: 'PingFangSC-Medium';
+}
+.f-r{
+  font-family: 'PingFangSC-Regular';
+}
+.f-t{
+  font-family: 'PingFangSC-Thin';
+}
+.f-l{
+  font-family: 'PingFangSC-Light';
+}
+.f-s{
+  font-family: 'PingFangSC-Semibold';
+}
+.v-modal {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    background: #000;
+    display: none;
+}
+
+input ::-webkit-input-placeholder {/*Chrome/Safari*/
+    color: #C0C0C0
+}
+input ::-moz-placeholder {/*Firefox*/
+    color:#C0C0C0
+}
+input ::-ms-input-placeholder {/*IE*/
+    color:#C0C0C0
+}
+a{
+  text-decoration: none;
+}
+.no-data .no-data-img{
+  width: 200px;
+  height: 200px;
+  margin-left: calc(50% - 100px);
+  margin-top: 53px;
+}
+.no-data .no-data-text{
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  color: rgb(186,186,186);
+}
+.container .submit-btn{
+  margin: auto;
+  font-size: 18px;
+  width: 80%;
+  display: block;
+}
+[type="radio"] {
+  -webkit-appearance:none;
+}
+[type="checkbox"], [type="radio"] {
+    box-sizing: border-box;
+    padding: 0px;
+}
+

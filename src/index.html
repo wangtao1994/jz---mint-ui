@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <title></title>
+</head>
+<body>
+    <div id="appIndex">
+
+    </div>
+    <% if (htmlWebpackPlugin.options.dev) { %>
+      <script src="/jquery-2.2.4.min.js"></script>
+    <% }else{ %>
+      <script src="/static/jquery-2.2.4.min.js"></script>
+    <% } %>
+    <!-- <script src="./dist/build.js"></script> -->
+</body>
+</html>
